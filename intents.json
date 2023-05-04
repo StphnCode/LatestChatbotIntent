@@ -1,0 +1,270 @@
+
+{"intents":[
+    {"tag": "Greetings",
+    "patterns": ["Hello", "Hi", "Hey", "Good day", "Greetings", "what's up", "how is it going"],
+    "responses": ["Hello! How can I assist you?", "Hello!", "Hi! What help i can do for you?", "Hi there, how can I help you today?", "Hey! what's up?"],
+    "context_set": ""
+},
+
+{"tag": "name",
+"patterns": ["what is your name", "your name is", "what should i call you", "whats your name", "who are you", "can you tell me your name"],
+"responses": ["My name is GreenBot your personal Mental health chatbot :)"],
+"context_set": ""
+},
+
+{"tag": "Professional_Help",
+"patterns": ["i need professional help", "can you refer me to a professional", "I can't take it anymore"],
+"responses": ["If you need immediate help, just click the call button above", "Just click the call button above for a professional help"],
+"context_set": ""
+},
+
+{"tag": "talk",
+"patterns": ["I need someone to talk to", "I need someone who will listen to me", "i need help"],
+"responses": ["Do you want to talk with me? or to a professional?"],
+"context_set": ""
+},
+
+{"tag": "want",
+    "patterns": ["i want you", "just you", "yes you", "No i want you", "no i want you"],
+    "responses": ["okay lets have a meaningful conversation, what do you want to talk about?", "alright what do you want to talk about?", "I'm here to listen. Tell me",
+    "I'm all ears", "I have a lot of free time, you can talk to me."],
+    "context_set": ""
+},
+
+{"tag": "thankful",
+    "patterns": ["Thank you for your help with my problem earlier.", "Thanks", "Appreciate it", "thanks", "thank", "tnx", "thank you", "you", 
+     "I really appreciate the advice you gave me. Thank you!"],
+    "responses": ["You're welcome! It's my pleasure to help.", "No problem, happy to help.", "Anytime! I'm here to assist you."]
+},
+
+{"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "see ya", "Thank you for the help"],
+    "responses": ["See you later! Remember to take care of yourself.", "Goodbye! Take care of yourself.", "Goodbye!", "Bye! Take care."],
+    "context_set": ""
+},
+
+{"tag": "Anxiety",
+    "patterns": ["I feel anxious", "Anxiety is overwhelming me", "Can't stop worrying", "Feeling nervous", "Heart is racing", "Anxious thoughts won't stop"],
+    "responses": ["I'm sorry to hear that. Anxiety can be tough to deal with. Have you tried any coping mechanisms to help manage your anxiety?"],
+    "context_set": ""
+},
+
+{"tag": "Depression",
+"patterns":["I feel depressed", "I cant take this anymore", "Im not happy anymore", "Im struggling", "I think i have depression", "Im always sad", "dead", "die", "depression", "I'm sad all the time", "I'm feeling down",
+"Im depress", "depress"],
+"responses":["Im sorry to hear that, It can be tough to deal with, but there are many resources available to help.",
+"Depression is a serious mental health concern, and it's important to take it seriously.",
+"It's important to know that you're not alone. Many people struggle with depression, and it's nothing to be ashamed of.",
+"I hear you. Depression can be overwhelming, but there are ways to manage it.", "I'm here to listen.",
+"I'm here to support you.",
+"If you need help I am always here to talk with you, You are not alone in your battles.",
+"I am always here to support you, you are loved and I wish I can give you a million hugs", 
+"You're not alone. It's important to prioritize your mental health."],
+"context_set": ""
+},
+
+{"tag": "Stress",
+"patterns": ["I'm feeling stressed", "I can't seem to relax", "Im too tired of my acadamics", "Everything is just too much right now",
+"I feel overwhelmed", "I'm under a lot of pressure", "stress", "pressure"],
+"responses": ["I'm sorry to hear that you're feeling stressed. It's important to take care of yourself during these times. You can try any relaxation techniques, such as deep breathing or mindfulness",
+"Stress can take a toll on your mental and physical health, so it's important to address it early on. I may suggest that you can talk to a therapist or counselor about your stressors",
+"It can be helpful to take a step back and reassess your priorities when you're feeling stressed.",
+"Stress is a normal part of life, but there are ways to manage it. You can try some exercises or other forms of physical activity to help relieve your stress",
+"Remember to take care of yourself during stressful times. Eating well, getting enough sleep, and spending time doing things you enjoy can all help to reduce stress.",
+"If you are feeling stressed take some time with your family and friends to have fun. Always remember that taking a break is very important, so go get that break you beautiful humans!",
+"Let's talk about some ways you can manage your stress. You can try deep breathing or meditation activities to ease your stress"],
+"context_set": ""
+},
+
+{"tag": "Academic Burnout",
+"patterns": ["I'm burnt out", "academic burnout", "I'm overwhelmed by school", "There's too many school works that we have to do", "I'm tired after doing all of my school activities"],
+"responses": ["Academic burnout can be tough to deal with. I may suggest that you can try taking a break or scheduling some self-care time for yourself.", 
+"Let's talk about ways to manage academic burnout. You can consider speaking with your school's counseling center or a mental health professional to help you."]
+},
+
+{"tag": "Dad Jokes",
+"patterns": ["Tell me a joke", "Do you have a good joke", "make me laugh", "give me some laugh", "I want a dad jokes"],
+"responses": ["Why did the tomato turn red? because it saw the salad dressing", "what do you call a bear with no teeth? a gummy bear", "How do you organize a space party? ya planet"],
+"context_set": ""
+},
+
+{"tag": "conversation",
+"patterns": ["I need someone to talk to", "can i talk to you", "can i open up", "i need you to listen to my feelings"],
+"responses": ["Sure, I am willing to listen", "I am here and ready to listen"],
+"context_set": ""
+},
+
+{"tag": "support",
+"patterns": ["Can you give me some support?", "I need some encouragement", "I'm feeling hopeless"],
+"responses": ["I'm here to support you. You can tell me more about what you need.", "You're not alone. Let's talk about what's been bothering you and how I can help.", "It's okay to feel hopeless sometimes. I'm here to listen and support you."],
+"context_set": ""
+},
+
+{"tag": "resources",
+"patterns": ["Are there any mental health resources available?", "Where can I find mental health support?", "Can you recommend some mental health resources?"],
+"responses": ["There are many resources available online to support your mental health issues, and this will guide you to know more about mental health.",
+ "Of course. Let's talk about what type of support would be most helpful for you.", "Absolutely. There are a lot of resources available in the internet."],
+"context_set": ""
+},
+
+{"tag": "uncertain",
+"patterns": ["not that one again"],
+"responses": ["oh sorry about that"],
+"context_set": ""
+},
+
+{"tag": "lazy",
+"patterns": ["can you help me with my homeworks", "homeworks", "can you do my essay", "can you answer my homeworks", "can you do my assignment",
+"can you help me with my assignment"],
+"responses": ["Sorry, but I was only built for mental health"],
+"context_set": ""
+},
+
+
+
+{"tag": "kumusta",
+"patterns": ["Kamusta", "Kumustaa", "kumusta", "kamustaa", "kamustaaa", "kmsta", "balita?", "wazzup", "Kumustaaa"],
+"responses": ["Kamusta rin saiyo! Anong maitutulong ko saiyo?", "Kamusta kaibigan? Anong maitutulong ko saiyo?",
+ "kumusta saiyo! Anong maitutulong ko saiyo?", "kamustaaa!! Anong maitutulong ko sayo?"],
+"context_set": ""
+},
+
+{"tag": "umaga",
+"patterns": ["Magandang umaga saiyo", "Magandang umaga", "Magandang umaga sayo", "umaga"],
+"responses": ["Magandang umaga rin saiyo :) Anong maitutulong ko saiyo?", "Magandang umaga! Anong maitutulong ko saiyo?"],
+"context_set": ""
+},
+
+{"tag": "hapon",
+"patterns": ["Magandang hapon", "Magandang hapon saiyo", "Magandang hapon sayo", "hapon"],
+"responses": ["Magandang hapon din saiyo, Anong maitutulong ko saiyo?", "Magandang hapon <3 Anong maitutulong ko saiyo?",
+ "pagbati ngayong hapon! Anong maitutulong ko saiyo?"],
+"context_set": ""
+},
+
+{"tag": "gabi",
+"patterns": ["Magandang gabi", "Magandang gabi saiyo", "Magandang gabi sayo", "gabi"],
+"responses": ["Magandang gabi rin saiyo! Anong maitutulong ko saiyo?", "Magandang gabi! Anong maitutulong ko saiyo?",
+ "magandang gabi saiyo, Anong maitutulong ko saiyo?"],
+"context_set": ""
+},
+
+{"tag": "tulong",
+"patterns": ["Kailangan ko ng tulong", "Tulong", "Kailangan ko ng iyong tulong", "pede mo ba ako tulungan?"],
+"responses": ["Anong ang iyong problema?", "Anong maitutulong ko?", "Anong problema?"],
+"context_set": ""
+},
+
+{"tag": "stressed",
+"patterns": ["ako ay stress", "stressed na ko", "feeling ko naiistress", "stress", "tingin ko ako ay stressed"],
+"responses": ["Anong dahilan ng iyong pagka-stressed?", "Ako ay willing makinig sa iyo!", "Pwede kang magkwento sa akin.",
+ "Nakakalungkot naman marinig na ikaw ay nasa kalagayan ng stress. Mahalaga na alagaan mo ang iyong sarili sa mga panahong ito.",
+"Ang stress ay maaaring makaapekto sa iyong kalusugan sa pag-iisip at pisikal, kaya mahalaga na tugunan ito nang maaga. Maari kang magpakonsulta sa mga propesyonal na manggagamot.",
+"Maaaring makatulong na magpahinga at suriin muli ang iyong mga prayoridad kapag ikaw ay nababagabag sa mga bagay-bagay. Maipapayo ko na libangin mo ang iyong sarili sa mga makakapag-pasaya saiyo.",
+"Ang stress ay isang normal na bahagi ng buhay, pero may mga paraan upang labanan ito. Maari kang mag ehesisyo o iba pang mga aktibidad na malilibang ang iyong sarili.",
+"Tandaan na alagaan ang iyong sarili sa panahon ng mga pagkakataon na ikaw ay naiistress. Ang pagkain ng masustansyang pagkain, pagkakaroon ng sapat na tulog, at paglalaan ng oras sa mga bagay na iyong kinahihiligan ay makakatulong upang maibsan ang stress.",
+"Kung ikaw ay nag-aalala at nababagabag, maglaan ng oras kasama ang iyong pamilya at mga kaibigan upang mag-enjoy. Laging tandaan na ang pagpapahinga ay napakaimportante, kaya kumuha ka na ng iyong break sa magagandang tao!",
+"Nasubukan mo na ba ang deep breathing (ni tanjiro Just kidding)? o meditation upang bigyan ng pahinga ang iyong utak at sarili sa mga iniisip mo."],
+"context_set": ""
+},
+
+{"tag": "pagkabalisa",
+"patterns": ["Ako ay nababalisa", "Ako ay nakakaranas ng anxiety", "Ako ay madalas nababahala", "Ang daming bumabagabag sa aking isipan",
+"Ako ay kinakabahan", "Kinakabahan", "Ako ay maraming naiisip na nakakabahala", "nababahala", "natatakot"],
+"responses": ["Ano ang dahilan ng iyong mga iniisip? maari mo akong kwentuhan.", "Nasubukan mo na bang libangin ang iyong sarili para makalimutan ang iyong mga iniisip?",
+"Maari mong ilabas sa aking lahat ng mga iniisip monng nakakabahala.", "Andito ako para tulungan kang mabawasan ang iyong mga pagkabahala."],
+"context_set": ""
+},
+
+{"tag": "Depresyon",
+"patterns": ["Feeling ko ako ay depressed", "Hindi ko na kaya", "Hindi na ako masaya", "Ako ay nahihirapan", "Tingin ko ako ay may depression", "Ako ay palaging malungkot",
+"patay", "Depresyon", "Ako ay malungkot palagi", "Hindi ko alam kung bakit ako malungkot", "Minsan masaya, minsan malungkot"],
+"responses": ["Nakakalungkot naman marinig iyan. Mahirap talaga ang pakiramdam na malungkot, pero maraming magagamit na resources upang makatulong at ikaw ay makalimot na ikaw ay malungkot.",
+"Ang depression ay isang seryosong usapin sa kalusugan ng isipan, at mahalaga na ito ay bigyan ng sapat na pansin. Maari mong alagaan ang iyong sarili sa maraming paraan kagaya ng ehersisyo o meditation",
+"Mahalaga na malaman mong hindi ka nag-iisa. Maraming tao ang nakakaranas ng depression, at ito ay hindi dapat ikahiya.",
+"Andito ako at sasamahan kita. Mahirap talagang maramdaman ang depression, ngunit may mga paraan upang labanan ito. kagaya nalang ng paglibang ng ating mga sarili sa mga bagay namakakapag-pasaya sa atin.",
+"Nandito ako para makinig. Maari mong ikwento sa akin ang mga bagay na gusto mong sabihin na hindi mo masabi sa iba.", "Nandito ako para suportahan ka. Maari mo bang i-describe kung ano ang nararamdaman mo?",
+"Kung kailangan mo ng tulong, nandito ako palagi upang makipag-usap sayo. Hindi ka nag-iisa sa iyong mga labanan", "Nandito ako palagi para suportahan ka, mahalin ka at nais kong maibigay sa iyo ang isang milyong yakap.",
+"Hindi ka nag-iisa. Mahalaga na bigyan ng prayoridad ang iyong kalusugan sa pag-iisip."],
+"context_set": ""
+},
+
+{"tag": "pagod sa pag-aaral",
+"patterns": ["Ako ay pagod na", "Pagod", "Pagod na kong mag-aral", "Ayoko na mag-aral", "Ang daming gawain sa school, nakakapagod", "Ako ay pagod nang gawin ang mga gawain sa school", "Ang dmi kong gawain sa school", "gawain sa school"],
+"responses": ["Mahirap talaga ang pag-aaral at ang pagkapagod sa pag-aaral. Maari kang magpahinga o mag-ischedule ng oras para alagaan ang iyong sarili",
+"Maari kang magkwento sakin kung bakit ka napapagod o ayaw na mag-aral.", "Wag mo masyadong isipin ang iyong mga gawain patungkol sa pag-aaral, ang mahalaga sa lahat ay ang iyong kalusugan.",
+"Nakakapagod mag-aral pero kailangan natin isipin ang ating mga pangarap, ngunit kung ito'y sobrang nakakapagod na dapat kang magpahinga kahit saglit lang at laban ulit."],
+"context_set": ""
+},
+
+{"tag": "Pag-uusap",
+"patterns": ["Kailangan ko ng kausap", "kausap", "Maari ka bang makausap?", "Gusto kong mag open-up sayo", "Maari ka bang makinig sa aking mga nararamdaman?",
+"makausap", "open-up", "openup", "hanash sa buhay", "hanash"],
+"responses": ["Ako ay nandito para makinig sa mga gusto mong sabihin.", "Palagi akong handang makinig sayo.", "Oo naman, ako ang iyong kaibigan na makikinig sayo."],
+"context_set": ""
+},
+
+{"tag": "Suporta",
+"patterns": ["Supportahan", "Suport", "Support", "motivate", "motivational", "pag-asa", "Ako ay nakakaramdam na wala nang pag-asa", "Nawawalan ng pagasa", "pag-asa"],
+"responses": ["Ako ay nandito para supportahan ka sa iyong mga laban sa buhay.", "Hindi ka nag-iisa dahil nandito ako para supportahan ka.",
+"Ako ay nandito para mamotivate ka na hindi ka nag-iisa."],
+"context_set": ""
+},
+
+{"tag":"mapagkukunan",
+"patterns": ["Mayroon bang mga resources na available?", "San ako makakuha ng mental health support?", "suporta"],
+"responses": ["Maraming resources online tungkol sa mental health issues.", "Maari kang mag search sa internet ng mga guide patungkol sa mental health o magpakonsulta sa propesyonal."],
+"context_set": ""
+},
+
+{"tag": "ulet",
+"patterns": ["bakit mo inulit ang iyong sinabi?", "umulit", "umulet", "ulet ulet?"],
+"responses": ["Paumanhin maaaring wala sa kakayahan kong sagutin ang iyong sinabi kaya umulit."],
+"context_set": ""
+},
+
+{"tag": "tamad",
+"patterns": ["tulungan sa assignment", "assignment", "tulungan mo ko sa aking assignment", "gawin mo ang aking assignement"],
+"responses": ["Paumanhin ngunit ako ay binuo para sa iyong mental health issues"],
+"context_set": ""
+},
+
+{"tag": "paalam",
+"patterns": ["Paalam", "hanggang sa muli", "Ako ay aalis na", "May gagawin pa ako"],
+"responses": ["Paalam, hanggang sa muli!", "Paalam, tandaan na importante ang iyong sarili!", "Paalam"],
+"context_set": ""
+},
+
+{"tag": "Salamat",
+"patterns": ["Salamat", "Maraming salamat", "Sobrang salamat"],
+"responses": ["Walang anuman.", "Maliit na bagay.", "Ano mang oras ako ay palaging nandito para tulungan ka.", "Walang problema, masaya akong makatulong."],
+"context_set": ""
+},
+
+{"tag": "gusto",
+"patterns": ["gusto ko ikaw", "ikaw ang gusto ko", "ikaw", "ikaw gusto ko"],
+"responses": ["Ok, tayo ay magkaroon ng makabuluhang pag-uusap.", "Ok, ano ang iyong gustong pag-usapan?", "Okay, marami akong time para makipag-usap"],
+"context_set": ""
+},
+
+{"tag": "Kausap",
+"patterns": ["Kailangan ko ng kausap", "Kailangan ko nang makikinig sa aking mga nararamdaman", "Kausap", "makikinig"],
+"responses": ["Gusto mo ba ako ang kausap o kailangan mo ng isang propsyonal na kausap?"],
+"context_set": ""
+},
+
+{"tag": "Propesyonal",
+"patterns": ["Kailgan ko ng propesyonal na tulong", "propesyonal", "propesyonal na tulong", "profeessional na tulong", "professional"],
+"responses": ["Kung kailangan mo ng mabilisan o agarang tulong, pindutin mo lang ang call button sa itaas", "Pindutin mo lang ang call button sa itaas."],
+"context_set": ""
+},
+
+{"tag": "Pangalan",
+"patterns": ["Ano ang iyong pangalan?", "Pangalan", "Ano ang itatawag ko sa iyo?", "Sino ka?"],
+"responses": ["Ang aking pangalan ay Greenbot, ang iyong personal mental health chatbot."],
+"context_set": ""
+}
+
+
+]
+}
